@@ -35,6 +35,6 @@ steps:
 
 - task: AzureAppConfiguration@5
   inputs:
-    azureSubscription: 'connect-basic'
+    azureSubscription: 'basic(cc85bc88-467c-4389-acee-5bbb506819aa)'
     AppConfigurationEndpoint: 'https://app-config-west.azconfig.io'
     KeyFilter: '*'
